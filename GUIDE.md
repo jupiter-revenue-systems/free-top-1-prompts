@@ -1,0 +1,369 @@
+# The Prompt Behind the Work
+
+**A finished master prompt for one real job, and a skill that interviews you and writes the next one.**
+
+Time: 25 minutes
+
+You'll need:
+- Claude (free or paid). ChatGPT works too.
+- One real job you want done this week
+- 10 minutes to answer questions about that job
+
+For the technical: This is a structured brief: context, objective, source of truth, locked decisions, scope limits, output spec, verification gates, stop conditions and a report format. The prompt-architect skill is a SKILL.md that runs a one-question-at-a-time interview and compiles your answers into that brief, which is often called meta-prompting.
+
+You type one line. "Write me a welcome email." What comes back could be for anyone. So you fix it by hand, or you ask again, and again. An hour later you're wondering if AI is worth the trouble.
+
+The AI isn't the problem. It did what a smart new hire would do with one line and no background. It guessed.
+
+I run my business solo, with AI agents doing most of the hands-on work. September was $83K and October was $90K. The prompts behind my builds are long. Some run for pages. And I don't write most of them alone. One AI interviews me and writes the prompt, then a different AI does the work.
+
+This guide shows you how, with real pieces from my own desk. Then it hands you a skill that does the interview for you.
+
+## Why a long, exact prompt beats one line
+
+Think about handing a job to a smart contractor who has never met you. One line gets you their best guess. A clear brief gets you the job you wanted.
+
+AI works the same way. Everything you leave out, it fills in with the most average answer it knows. That's why short prompts get generic work. The gaps get filled with average.
+
+Here's what I see from running agents every day. Skill with AI isn't knowing the most tech. It's giving exact directions. Saying what to check. Handing over more of the doing. And steering when things go wrong, where a beginner is more likely to quit. Knowing your own field matters more than knowing code.
+
+That's what I mean by a top 1% user. It isn't a secret trick. It's someone who briefs AI the way a good owner briefs a good team.
+
+Long doesn't mean stuffed, though. Every line has to earn its place. A prompt packed with things the AI doesn't need is as bad as one line.
+
+For the technical: the model can only work from what's in its context window. A structured brief with clear acceptance criteria removes the guessing.
+
+### See the before and after
+
+Here's the same job asked 2 ways. Read both. Notice that the second one isn't clever. It's just complete. Swap in your own business and try it.
+
+```text
+BEFORE (one line)
+Write a welcome email for my new clients.
+
+AFTER (a real brief)
+Read this whole message before you start.
+
+Who this is for: I run a 1-person bookkeeping business for dentists. New clients read this email the day they sign up.
+
+Goal: one welcome email that gets the client to book their kickoff call within 24 hours.
+
+Read first: my onboarding notes, pasted below. If my notes and this message disagree, the notes win.
+
+Already decided: the kickoff call is 30 minutes. The email comes from me, first name only.
+
+Limits: no hype, no exclamation marks, nothing I didn't tell you. Don't promise results.
+
+What it should look like: under 120 words, short sentences, one button. Subject line under 45 characters.
+
+How to check it: read it as a busy dentist on a phone. Would they know the one thing to do in 5 seconds?
+
+Done means: one email, one subject line, and a line telling me anything you had to assume.
+
+[paste your onboarding notes here]
+```
+
+Why this works: Every line in the second version closes a gap the AI would have filled with a guess.
+
+## The 8 parts of a top 1% prompt
+
+Every master prompt I run has the same 8 parts. Some are one sentence. Some are a page. None are missing.
+
+1. Who it's for. Who you are, what the business does, and who reads the result. Skip "act as an expert". Saying who reads the work does more.
+
+2. The goal. One sentence: what should exist when it's finished.
+
+3. What to read first. Your notes, files or page. Add this line: if these disagree with my prompt, they win.
+
+4. What's already decided. Prices, names, tone, tools. This stops the AI from reopening choices you've made.
+
+5. Limits. What it must not touch, and what can wait. "Read only" and "don't build yet" save you from cleanup.
+
+6. What it should look like. Format, length, sections. An example beats a description.
+
+7. How to check it. What counts as proof. Ask it to mark facts and guesses apart.
+
+8. What done means. The test the work must pass, when to stop and ask you, and the report you want: X of Y done, what's open, what wasn't checked.
+
+Parts 7 and 8 are the ones beginners skip. They're also the ones that turn a first draft into finished work, because the AI now knows how it'll be judged.
+
+## Real ones from my desk
+
+These are cleaned up and shortened from prompts I've really run. The private details are out. Look at the shape, then take it.
+
+### The prompt that planned my next 3 years
+
+I wanted a long-range plan for the business, in territory that was new to me. It started as a long voice note. This is the core of it. Notice that I admit what I don't know, name the one question to answer, and set a hard limit.
+
+```text
+I want a plan to build this business over the next 1 to 3 years.
+
+This is new territory for me. I don't know what I don't know. So expand on my notes and tell me what I've missed.
+
+Read first: everything in this folder about what the business sells and how it runs. Then research companies doing similar work.
+
+The question to answer above all: what makes this business worth more in 3 years?
+
+Write it the way a professional business plan writer would. Mark every claim as verified, researched or assumption.
+
+Limits: you're not building anything tonight. Read only. Don't touch the website.
+
+Don't check in with me on small choices. Make the call and note what you chose.
+```
+
+Why this works: Telling the AI what you don't know gives it permission to fill the real gaps, not the ones you guessed at.
+
+### The prompt that runs an overnight build
+
+I plan a build in the evening, then hand it off and go to bed. This is the top of one of those prompts. Notice the goal is about what I wake up to, the files beat the prompt, and testing has a limit.
+
+```text
+I'm going to bed. Read this whole instruction before you start.
+
+Goal: when I wake up, everything that can be finished without my hands is finished, checked and written down. Anything that needs me is one simple checklist with exact steps.
+
+Read first: the status file and the decisions file. If they disagree with this prompt, the files win.
+
+Keep the count honest. Report X of Y done. Don't change Y. Don't report Y of Y while any row is parked.
+
+Testing is a gate, not a job. Run the check once. If it fails, make the smallest fix and run it again. 2 tries at most, then note it and move on.
+
+Don't ask me questions tonight. Don't replan the whole thing. Work until you've done everything you responsibly can without me. Then stop.
+```
+
+Why this works: An AI with no stopping rule either quits early or tests forever. This one knows exactly when to stop.
+
+### The lines that start a big job right
+
+These lines sit at the bottom of the prompt that started a new build. They set how the AI reports, when it may pause, and what its first reply must be. Add them to any long job.
+
+```text
+This may be a long task. Update me at real milestones, not every small step.
+
+Don't tell me something worked until you've checked it.
+
+Don't build yet: [the list of things that can wait].
+
+Your first reply is short. Tell me 3 things:
+1. What you're looking at first.
+2. What access you need, if any.
+3. What you refuse to assume.
+Then start.
+
+Pause only when: a live change needs my OK, access is missing, a choice has real business consequences only I can decide, or you might overwrite important work.
+
+Leave me with a working first version, not advice about how to build one.
+```
+
+Why this works: Asking what it refuses to assume gets the AI to name its guesses before it acts on them.
+
+## Let one AI interview you, then hand the prompt to another
+
+Here's the part most people miss. You don't have to write the long prompt yourself.
+
+In the evening I talk a job through in one chat. It asks me questions, pushes on the weak spots, and writes the master prompt. I paste that prompt into Claude Code, which does the work. A second agent that didn't do the work checks it. In the morning I read a report.
+
+Why 2? The first AI has one job, getting the brief right. It isn't in a hurry to start. And when the second AI reads the prompt cold, any gap shows up fast.
+
+You can use Claude for both, or ChatGPT for both. Just use 2 separate chats.
+
+For the technical: one model compiles the brief, and a fresh context with no chat history runs it.
+
+### Start the interview
+
+Open a new chat. Paste this. Answer one question at a time, the way you'd talk to a person. Short answers are fine. Voice notes are fine.
+
+```text
+I want you to write a prompt for another AI. Don't write it yet.
+
+Interview me first, one question at a time. Wait for my answer before you ask the next one.
+
+Ask about: the job, who the result is for, what should exist when it's finished, what the AI should read first, what I've already decided, what's off limits, how the work gets checked, and when the AI should stop and ask me.
+
+If my answer is vague, ask one follow-up. If I say "I don't know", give me 2 options and let me pick.
+
+When you have enough, write one master prompt I can paste into a new chat. Use plain headings. Put the goal near the top and the meaning of done at the bottom. Then list anything you had to assume.
+```
+
+Why this works: You know your business. You don't know which details the AI needs. The interview pulls them out of you.
+
+### Cold-read it, then run it in a new chat
+
+Open a second chat. Paste this with your new master prompt under it. Fix what it flags. Then open a third chat, paste the fixed prompt, and let it work. Compare the result to what one line used to get you.
+
+```text
+Read the prompt below as if you were the AI receiving it, with no other background. Don't do the task.
+
+Tell me:
+1. What's unclear.
+2. What you'd have to guess.
+3. What would make you stop and ask me.
+
+Then give me the fixed prompt.
+
+[paste the master prompt here]
+```
+
+Why this works: If a fresh AI has to guess, so will the one doing the work. Better to find that out before the job starts.
+
+## 4 templates and the skill
+
+Copy the one that fits your job. Fill in the brackets. Delete any part you truly don't need, but keep the last part of each one. That's the part that gets finished work back.
+
+### Template 1: the master prompt for any one job
+
+Use this for a single piece of work: an email, a page, a proposal, a script.
+
+```text
+Read this whole message before you start.
+
+WHO THIS IS FOR
+I'm [who you are and what your business does]. The result is for [who will read or use it].
+
+THE GOAL
+When you're finished, I'll have [the one thing that should exist].
+
+READ FIRST
+[Paste or attach your notes, files or page.] If these disagree with this message, they win. Tell me where they disagree.
+
+ALREADY DECIDED
+[Choices you won't reopen: price, name, tone, tools.]
+
+LIMITS
+Don't [what's off the table]. If you're not sure something is allowed, ask before you do it.
+
+WHAT IT SHOULD LOOK LIKE
+[Format, length, sections. Paste an example you like if you have one.]
+
+HOW TO CHECK IT
+Before you show me, check [what proof looks like]. Mark anything you guessed as a guess.
+
+DONE MEANS
+[The test the work must pass.] End with a short report: what's done, what's open, what you didn't check.
+
+FIRST REPLY
+Don't open with a long plan. Tell me what you'll look at first, what you need from me, and what you refuse to assume. Then begin.
+```
+
+### Template 2: the research and plan prompt
+
+Use this when you're in new territory and need a plan you can trust. It's the shape of my long-range plan prompt.
+
+```text
+Read this whole message before you start.
+
+WHERE I AM
+I'm [who you are]. I want to [the big goal]. I don't know what I don't know about this, so part of your job is to tell me what I've missed.
+
+READ FIRST
+[Paste or attach what you have: notes, numbers, pages.] Treat these as the facts about my business.
+
+THE QUESTION
+Answer this above all: [the one question the plan must answer].
+
+RESEARCH
+Look at how others handle this. Tell me what you opened and read, and what you only know from memory.
+
+WHAT IT SHOULD LOOK LIKE
+A plan a professional in this field would sign. Start with a 1-page summary in plain words. Mark every claim as verified, researched or assumption.
+
+LIMITS
+Don't build or change anything. This is a plan only. Don't invent numbers. If a number is missing, tell me which one you need.
+
+DECISIONS
+Make the small calls yourself and note each one. Stop and ask only if a choice changes the whole plan.
+
+DONE MEANS
+I can read the summary in 5 minutes and know my next step. End with: what you checked, what you didn't, and the 3 things I should decide next.
+```
+
+### Template 3: the stepping-away prompt
+
+Use this when an agent will work for hours without you, in a tool like Claude Code or Cowork. Start with a small list in a copy of your work, never the live version.
+
+```text
+I'm stepping away. Read this whole instruction before you start.
+
+GOAL
+When I'm back, everything that can be finished without my hands is finished, checked and written down. Anything that needs me is one short checklist with exact steps.
+
+READ FIRST
+[Your status notes, your decisions list, your task list.] If they disagree with this prompt, they win.
+
+THE LIST
+Work from this list, one row per task: [paste the list]. Don't add rows. Don't remove rows.
+
+ALREADY DECIDED
+[Decisions made. Don't reopen them.]
+
+LIMITS
+Work in a copy, not the live version. Make a restore point before any change. Don't delete, archive or switch off anything. Don't publish. I click publish.
+
+CHECKING
+Check each row on the real result, not on the fact that you wrote it. If a check fails, make the smallest fix and check again. 2 tries at most, then mark the row open and move on.
+
+DON'T
+Don't ask me questions while I'm away. Don't replan. Don't start new ideas.
+
+MORNING REPORT
+X of Y done. What's open and why. What you didn't check. The checklist of things only I can do.
+```
+
+Why this works: The safety lines are the same ones I run: restore point first, no deleting, and the human clicks publish.
+
+### Template 4: the fix-it prompt
+
+"Make it better" is a one-liner too. When the work misses, use this.
+
+```text
+That missed. Before you redo it, read this.
+
+WHAT'S WRONG
+[The exact part that's off. Quote it.]
+
+WHY IT'S WRONG
+[The reason, in one or two sentences. Who it's for, what they'd think, what rule it breaks.]
+
+WHAT RIGHT LOOKS LIKE
+[Describe it, or paste an example.]
+
+KEEP
+[The parts that worked. Don't change these.]
+
+Now tell me in one sentence what you think I'm asking for. Wait for my yes. Then fix only that part and show me what changed.
+```
+
+Why this works: Good feedback names what's wrong, why, and what right looks like. That's how the next round lands.
+
+### Install the prompt-architect skill
+
+Download the skill from this page and add it to Claude. The steps are in INSTALL.md. Then open a new chat and say "architect a prompt". It asks you one question at a time and hands back a finished master prompt. On ChatGPT, paste the contents of SKILL.md as your first message.
+
+## The one thing to remember
+
+Generic work comes from the gaps in my prompt, so I close the gaps before I hit send.
+
+## You're done when
+
+- You've got one master prompt for a real job, with all 8 parts filled in.
+- A fresh chat read it cold and had nothing left to guess.
+- You ran it in a new chat and the result needed light edits, not a rewrite.
+- The AI ended with a report: what's done, what's open, what it didn't check.
+- The prompt-architect skill is installed, or the interview prompt is saved where you can find it.
+
+## What this free version doesn't do
+
+- This writes one prompt for one job. It doesn't remember your business, so you'll explain who you are again in the next chat.
+- These are starter templates. The full master prompts behind my builds are longer and tied to my own systems, so they aren't in here.
+- A strong prompt still needs a check. The skill writes the brief. It doesn't verify the finished work for you.
+- It won't pick your strategy. If you're not sure what to build, a better prompt gets you a clearer version of the wrong thing.
+
+## 3 ways forward
+
+- **Do it yourself:** Set up The Shared Brain, the free folder every chat reads first, so your master prompts stop starting from zero. https://ekaistone.com/training
+- **With me:** Book a Strategy Call and spend 60 minutes with me on advanced AI: bring one real job and we'll build the prompts and the plan to run it. $750. https://ekaistone.com/strategy-session
+- **Done for you:** If you'd like the whole system built for you, builds start with the Discovery Call, 30 minutes about what you want built. $150. https://ekaistone.com/discovery-call
+
+Calls are paid and non-refundable.
+
+Free to use. (c) Jupiter Revenue Systems. Don't resell.
