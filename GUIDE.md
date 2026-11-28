@@ -361,7 +361,7 @@ Generic work comes from the gaps in my prompt, so I close the gaps before I hit 
 ## 3 ways forward
 
 - **Do it yourself:** Set up The Shared Brain, the free folder every chat reads first, so your master prompts stop starting from zero. https://ekaistone.com/training
-- **With me:** Book a Strategy Call and spend 60 minutes with me on advanced AI: bring one real job and we'll build the prompts and the plan to run it. $750. https://ekaistone.com/strategy-session
+- **With me:** Book a Strategy Session and spend 60 minutes with me on advanced AI: bring one real job and we'll build the prompts and the plan to run it. $750. https://ekaistone.com/strategy-session
 - **Done for you:** If you'd like the whole system built for you, builds start with the Discovery Call, 30 minutes about what you want built. $150. https://ekaistone.com/discovery-call
 
 Calls are paid and non-refundable.

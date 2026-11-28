@@ -47,7 +47,7 @@ Works in Claude. Most of it works in ChatGPT too.
 ## Next
 
 - Stop starting from zero: The Shared Brain, and more free training, at https://ekaistone.com/training
-- Want to work through it with me? The Strategy Call is 60 minutes for $750: https://ekaistone.com/strategy-session
+- Want to work through it with me? The Strategy Session is 60 minutes for $750: https://ekaistone.com/strategy-session
 - Questions: support@ekaistone.com
 
 Free to use. (c) Jupiter Revenue Systems. Don't resell.
